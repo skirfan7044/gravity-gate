@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravity Gate</title>
+    <link rel="icon" type="image/png" href="images/gravity-gate-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/gravity-gate-logo.png" alt="gravity-gate-logo"
+            /></a>
+          </div>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+          >
+            &#9776;
+          </button>
+
+          <div class="navlist" id="navMenu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="passes.html">Passes</a></li>
+              <li><a href="attractions.html">Park & Attractions</a></li>
+              <li><a href="offer.html">Offers</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li>
+                <a href="booking.html" class="btn-book"
+                  ><button>
+                    Book Ticket
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.45 63.043l-4.364 17.463 8.73 2.18L90.44 97.846l29.402 44.1 62.44 187.32-36.845 73.693h17.827c-2.086 4.238-3.264 8.99-3.264 14 0 17.567 14.433 32 32 32s32-14.433 32-32c0-5.01-1.178-9.762-3.264-14h102.528c-2.086 4.238-3.264 8.99-3.264 14 0 17.567 14.433 32 32 32s32-14.433 32-32c0-5.01-1.178-9.762-3.264-14H393v-18H174.562l23-46h192.924l70-210h-327.67L101.56 82.07 34.183 65.227l-8.733-2.184zm115.038 83.914H231v46h-75.178l-15.334-46zm108.512 0h78v46h-78v-46zm96 0h90.512l-15.334 46H345v-46zm-183.18 64H231v46h-53.846l-15.334-46zm87.18 0h78v46h-78v-46zm96 0h69.18l-15.334 46H345v-46zm-161.846 64H231v46h-32.514l-15.332-46zm65.846 0h78v46h-78v-46zm96 0h47.846l-15.332 46H345v-46zm-153 128c7.84 0 14 6.16 14 14s-6.16 14-14 14-14-6.16-14-14 6.16-14 14-14zm160 0c7.84 0 14 6.16 14 14s-6.16 14-14 14-14-6.16-14-14 6.16-14 14-14z"
+                      ></path>
+                    </svg></button
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cart background">
+        <h1>Book Your Ticket</h1>
+        <form>
+          <h4>Summary</h4>
+          <div class="input-box">
+            <input type="text" id="full_name" placeholder="Sk Irfan" />
+            <input type="email" id="email" placeholder="skirfan@gmail.com" />
+            <input type="number" id="phone" placeholder="+91 6254789575" />
+            <select name="date" id="date">
+              <option value="" disabled selected>Booking date</option>
+            </select>
+          </div>
+          <div class="table-box">
+            <table>
+              <thead>
+                <tr>
+                  <th>Pass Name</th>
+                  <th>Price (₹)</th>
+                  <th>QTY</th>
+                  <th>Amt (₹)</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Entry Pass</td>
+                  <td>500</td>
+                  <td>
+                    <span>
+                      <button type="button">
+                        <svg
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M5 12h14"></path>
+                        </svg>
+                      </button>
+                      1
+                      <button type="button">
+                        <svg
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          height="1em"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <line x1="12" y1="5" x2="12" y2="19"></line>
+                          <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                      </button>
+                    </span>
+                  </td>
+                  <td>500</td>
+                  <td>
+                    <button class="btn-red" type="button">
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 4V2H17V4H22V6H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V6H2V4H7ZM6 6V20H18V6H6ZM9 9H11V17H9V9ZM13 9H15V17H13V9Z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Gold Pass</td>
+                  <td>999</td>
+                  <td>
+                    <button type="button">
+                      <svg
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M5 12h14"></path>
+                      </svg>
+                    </button>
+                    2
+                    <button type="button">
+                      <svg
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                      </svg>
+                    </button>
+                  </td>
+                  <td>1998</td>
+                  <td>
+                    <button class="btn-red" type="button">
+                      <svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        height="1em"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 4V2H17V4H22V6H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V6H2V4H7ZM6 6V20H18V6H6ZM9 9H11V17H9V9ZM13 9H15V17H13V9Z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="calc-box">
+            <div class="promo-code">
+              <input
+                type="text"
+                name="promo_code"
+                placeholder="Enter Promo Code"
+              />
+              <button type="button">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="calc">
+              <h5>Amount : ₹2048.00</h5>
+              <h5>GST @18% : ₹450.00</h5>
+              <h5>Discount : ₹00.00</h5>
+            </div>
+          </div>
+          <div class="total">
+            <h5>Total Amount: ₹2498.00</h5>
+          </div>
+          <div class="submit-btn">
+            <button type="submit">Proceed to pay</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6">
+          <img
+            src="images/gravity-gate-logo-white.png"
+            alt="gravity-gate-white-logo"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h4>Gravity Gate Park</h4>
+          <a href="#">Chandannagar,</a>
+          <a href="#">Hooghly,</a>
+          <a href="#">WB, 712138</a>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <h4>Contact</h4>
+          <a href="tel:+916252487595">Phone : +91 6252487595</a>
+          <a href="mailto:support@gravitygate.com"
+            >Email : support@gravitygate.com</a
+          >
+          <a href="#">GSTN : 58GFIUY575S58SY</a>
+        </div>
+        <div class="col-md-3 col-sm-12" id="ft-none"></div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h4>Quick Links</h4>
+          <a href="contact.html">Location</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="aboutus.html">About us</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+          <h4>Privacy Policy</h4>
+          <a href="privacy.html">Privacy</a>
+          <a href="cancellation&refund.html">Refund</a>
+          <a href="cancellation&refund.html">Cancellation</a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

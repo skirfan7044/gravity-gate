@@ -1,0 +1,1590 @@
+@media screen and (max-width: 1700px) {
+  .offer .offer-box {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  :root {
+    --side-gap: 60px;
+  }
+  .main-banner img {
+    height: 700px;
+  }
+  .timing-faq .faq li h6 {
+    font-size: 16px;
+  }
+
+  .timing-faq .timing-box h6 {
+    font-size: 22px;
+  }
+
+  .timing-faq .timing-box h6 span {
+    font-size: 24px;
+  }
+
+  .timing-faq .timing-box p {
+    font-size: 20px;
+  }
+
+  .gravity-gate .gravity-card {
+    width: 350px;
+    height: 550px;
+  }
+
+  .gravity-gate .gravity-card img {
+    height: 220px;
+  }
+
+  .gravity-gate .gravity-card .text-box h4 {
+    font-size: 24px;
+  }
+
+  .gravity-gate .gravity-card .text-box p {
+    font-size: 15px;
+  }
+
+  .review .rating-box p {
+    padding-top: 15px;
+  }
+
+  .passes .passes-card {
+    min-height: 500px;
+  }
+
+  .passes .passes-card .text-box p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .contact-map .contact-box .contact-form {
+    width: 550px;
+  }
+
+  .contact-map .map {
+    width: 550px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  :root {
+    --side-gap: 60px;
+  }
+
+  .main-banner img {
+    height: 600px;
+  }
+
+  .review .rating-box {
+    padding: 100px 20px 30px;
+  }
+  .review {
+    padding: 40px var(--side-gap) 30px;
+  }
+
+  .gravity-gate .serivice-box a {
+    font-size: 18px;
+    svg {
+      font-size: 30px;
+    }
+  }
+  .gravity-gate .serivice-box {
+    height: 80px;
+    top: -40px;
+  }
+  .gravity-gate .heading {
+    margin-top: 80px;
+  }
+
+  .detail-page h4 {
+    font-size: 32px;
+  }
+
+  .detail-page p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .contact-detail .detail-box .detail-card {
+    width: 350px;
+  }
+
+  .fooding-box .sidebar-box .sidebar,
+  .fooding .fooding-box .sidebar-box {
+    width: 250px;
+  }
+
+  .fooding .fooding-box .menu {
+    width: calc(100% - 290px);
+  }
+
+  .sidebar-box .sidebar h4 {
+    font-size: 22px;
+  }
+
+  .sidebar-box .sidebar ul li a {
+    font-size: 20px;
+  }
+
+  .fooding-box .sidebar-box .sidebar,
+  .fooding .fooding-box .sidebar-box {
+    width: 200px;
+  }
+
+  .fooding .fooding-box .menu {
+    width: calc(100% - 240px);
+  }
+
+  .sidebar-box .sidebar h4 {
+    font-size: 20px;
+  }
+
+  .sidebar-box .sidebar ul li a {
+    font-size: 18px;
+  }
+
+  .menu .menu-card {
+    height: 250px;
+  }
+
+  .menu .menu-card img {
+    height: 140px;
+  }
+
+  .menu .menu-card .text-box h5 {
+    font-size: 18px;
+  }
+
+  .menu .menu-card .text-box h6 {
+    font-size: 16px;
+  }
+
+  .menu .menu-card button {
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .review .rating-box {
+    height: 340px;
+  }
+
+  .review .rating-box img {
+    width: 150px;
+  }
+
+  .gravity-gate .gravity-card {
+    width: 300px;
+    height: 460px;
+  }
+
+  .gravity-gate .gravity-card img {
+    height: 180px;
+  }
+
+  .gravity-gate .gravity-card .text-box {
+    padding: 10px 15px;
+  }
+
+  .gravity-gate .gravity-card .text-box p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .gravity-gate .gravity-card button {
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .heading h6 {
+    line-height: 26px;
+  }
+
+  .passes .passes-card {
+    min-height: 480px;
+  }
+
+  .passes .passes-card img {
+    height: 200px;
+  }
+
+  .attraction-img {
+    height: 450px;
+  }
+
+  .offer .offer-parent {
+    justify-content: space-around;
+  }
+
+  .detail-page .img-box {
+    height: 500px;
+  }
+
+  .contact-map .contact-box .contact-form,
+  .contact-map .map {
+    width: 500px;
+  }
+
+  .fooding-banner {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --side-gap: 40px;
+  }
+  nav ul li {
+    padding-left: 25px;
+  }
+  nav ul li button {
+    margin-left: 10px;
+  }
+  .main-banner img {
+    height: 500px;
+  }
+
+  .gravity-gate .gravity-card {
+    width: 270px;
+    height: 440px;
+  }
+
+  .gravity-gate .gravity-card button {
+    font-size: 14px;
+    left: 12px;
+  }
+
+  .gravity-gate .gravity-card img {
+    height: 160px;
+  }
+  .gravity-gate .gravity-card .text-box {
+    padding: 5px 12px;
+  }
+
+  .gravity-gate .gravity-card .text-box p {
+    line-height: 14px;
+  }
+
+  .heading h6 {
+    line-height: 24px;
+  }
+
+  .timing-faq {
+    padding-bottom: 30px;
+  }
+
+  .timing-faq .timing-box h4 {
+    font-size: 32px;
+  }
+
+  .timing-faq .faq h4 {
+    font-size: 32px;
+  }
+
+  .timing-faq .faq li {
+    min-height: 40px;
+    padding: 10px 12px 10px;
+  }
+
+  .timing-faq .timing-box h6 {
+    font-size: 18px;
+  }
+
+  .timing-faq .timing-box h6 span {
+    font-size: 18px;
+  }
+
+  .timing-faq .timing-box p {
+    font-size: 16px;
+  }
+
+  .timing-faq .faq {
+    min-height: 420px;
+  }
+
+  .timing-faq .faq li h6 {
+    font-size: 12px;
+    width: 92%;
+  }
+
+  .timing-faq .faq li p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  .timing-faq .faq li svg {
+    font-size: 16px;
+  }
+
+  .review .rating-box {
+    padding-top: 70px;
+    height: 310px;
+  }
+
+  .passes .passes-card .text-box p {
+    font-size: 14px;
+  }
+
+  .passes .passes-card .text-box h4 {
+    font-size: 22px;
+  }
+
+  .passes .passes-card .text-box h6 {
+    font-size: 18px;
+  }
+
+  .passes .passes-card {
+    min-height: 460px;
+  }
+
+  .attraction-img {
+    height: 400px;
+  }
+
+  .offer-banner {
+    height: 350px;
+  }
+
+  .detail-page .img-box {
+    height: 450px;
+  }
+
+  .detail-page p {
+    font-size: 18px;
+  }
+
+  .detail-page {
+    padding-bottom: 20px;
+  }
+
+  .contact-map .contact-box .contact-form {
+    width: 400px;
+    padding: 20px 35px;
+  }
+
+  .contact-map .map {
+    width: 300px;
+    height: 250px;
+  }
+
+  .contact-detail .detail-box .detail-card {
+    width: 300px;
+    height: 140px;
+    padding: 60px 10px 10px;
+  }
+
+  .detail-box .detail-card .icon-box {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+  }
+
+  .detail-box .detail-card .icon-box svg {
+    font-size: 40px;
+  }
+
+  .detail-box .detail-card h4 {
+    font-size: 16px;
+  }
+
+  .detail-box .detail-card h6 {
+    font-size: 12px;
+  }
+
+  .contact-detail {
+    height: 300px;
+  }
+
+  .policy h1 {
+    font-size: 28px;
+  }
+
+  .policy dt {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .policy dd {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .about-us p {
+    font-size: 16px;
+  }
+
+  .about-banner .team-member {
+    height: 300px;
+    padding-top: 50px;
+  }
+
+  .about-banner .team-member .member {
+    width: 300px;
+    height: 150px;
+    padding-top: 60px;
+  }
+
+  .about-banner .team-member .member img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-banner .team-member .member .img-box {
+    top: -50px;
+  }
+
+  .about-banner .team-member .member h5 {
+    font-size: 22px;
+  }
+
+  .about-banner .team-member .member p {
+    font-size: 16px;
+  }
+
+  .menu .menu-card {
+    height: 220px;
+  }
+
+  .menu .menu-card img {
+    height: 120px;
+  }
+
+  .menu .menu-card .text-box h5 {
+    font-size: 17px;
+  }
+
+  .cart form {
+    min-height: 500px;
+  }
+
+  .cart h4 {
+    font-size: 32px;
+  }
+
+  .cart .input-box {
+    height: 35px;
+  }
+
+  .cart .input-box input {
+    font-size: 16px;
+
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+
+  .cart .table-box table th {
+    font-size: 16px;
+  }
+  .cart .table-box table td {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .cart .table-box table td:nth-child(1) {
+    width: 35%;
+  }
+
+  .cart .table-box table td button {
+    width: 25px;
+    height: 25px;
+    padding: 0 3px;
+  }
+
+  .cart .table-box table td button svg {
+    font-size: 15px;
+  }
+
+  .cart .calc-box .promo-code {
+    width: 250px;
+    height: 40px;
+  }
+
+  .cart .calc-box input {
+    font-size: 16px;
+
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+
+  .cart .calc-box .calc h5,
+  .cart .total h5 {
+    font-size: 20px;
+  }
+
+  .cart .submit-btn button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #ft-none {
+    display: inline;
+  }
+
+  nav .navlist {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 9;
+    width: 0;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background: var(--white);
+    box-shadow: var(--shadow-two);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  nav .navlist.show {
+    width: 250px;
+    height: calc(100vh - 100px);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav .navlist ul {
+    display: block;
+    padding: 0;
+    padding-left: var(--side-gap);
+  }
+
+  nav ul li {
+    padding: 7px 0;
+  }
+  nav .nav-toggle {
+    display: inline;
+  }
+
+  nav ul li button {
+    margin-left: 0;
+  }
+
+  nav .show {
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: var(--white);
+    box-shadow: var(--shadow-two);
+  }
+
+  nav .show ul {
+    display: inline-block;
+    padding-left: var(--side-gap);
+  }
+
+  nav .logo img {
+    width: 80px;
+  }
+
+  .gravity-gate .serivice-box {
+    height: 60px;
+    top: -30px;
+  }
+
+  .gravity-gate .serivice-box a {
+    font-size: 11px;
+    svg {
+      font-size: 23px;
+      vertical-align: middle;
+    }
+  }
+
+  .gravity-gate .gravity-card {
+    width: 250px;
+    height: 430px;
+  }
+
+  .gravity-gate .gravity-card .text-box h4 {
+    font-size: 22px;
+  }
+
+  .gravity-gate .gravity-card .text-box h6 {
+    font-size: 18px;
+  }
+
+  .gravity-gate .gravity-card .text-box p {
+    font-size: 12px;
+  }
+
+  .gravity-gate .gravity-card button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .gravity-gate .gravity-card {
+    margin: 20px 10px;
+  }
+
+  .gravity-gate .card-box {
+    justify-content: space-around;
+  }
+
+  .timing-faq .faq h4,
+  .timing-faq .timing-box h4 {
+    font-size: 24px;
+  }
+
+  .timing-faq .faq {
+    padding: 30px 25px 20px;
+  }
+
+  .review .rating-box {
+    height: 210px;
+    padding: 50px 10px 30px;
+  }
+
+  .review .rating-box img {
+    width: 100px;
+  }
+
+  .review .rating-box p {
+    font-size: 10px;
+    line-height: 13px;
+    padding-top: 10px;
+  }
+
+  .review {
+    min-height: 500px;
+  }
+
+  .review .rating-box {
+    margin-top: 50px;
+  }
+
+  .gravity-gate .serivice-box {
+    padding: 0 40px;
+  }
+
+  .passes .passes-card {
+    min-height: 360px;
+  }
+
+  .passes .passes-card .text-box {
+    padding: 10px;
+  }
+
+  .passes .passes-card img {
+    height: 140px;
+  }
+
+  .passes .passes-card .text-box p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .passes .passes-card button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    left: 10px;
+  }
+
+  .attraction-img {
+    height: 300px;
+  }
+
+  .heading {
+    max-width: 646px;
+  }
+
+  .attractions .attraction-card {
+    min-height: 295px;
+  }
+
+  .attractions .attraction-card img {
+    height: 140px;
+  }
+
+  .attractions .attraction-card .text-box {
+    padding: 10px;
+  }
+
+  .attractions .attraction-card .text-box h4 {
+    font-size: 22px;
+  }
+
+  .attractions .attraction-card .text-box p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .attractions .attraction-card button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    left: 10px;
+  }
+
+  .offer .offer-box .left-part {
+    width: 190px;
+  }
+
+  .offer .offer-box .right-part {
+    &::before,
+    &::after {
+      width: 20px;
+      height: 20px;
+    }
+
+    &::before {
+      left: -10px;
+      top: -10px;
+    }
+
+    &::after {
+      left: -10px;
+      bottom: -10px;
+    }
+  }
+
+  .offer-banner {
+    height: 300px;
+  }
+
+  .offer .offer-box {
+    width: 350px;
+    height: 130px;
+  }
+
+  .offer .offer-box .left-part {
+    width: 180px;
+  }
+
+  .offer .offer-box .right-part {
+    width: 170px;
+  }
+
+  .offer .offer-box .left-part h5,
+  .offer .offer-box .right-part h5 {
+    font-size: 18px;
+  }
+
+  .offer .offer-box .right-part h6 {
+    width: 140px;
+    font-size: 14px;
+  }
+
+  .offer .offer-box .right-part p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .offer .offer-box .left-part svg {
+    font-size: 65px;
+  }
+
+  .detail-page .img-box {
+    height: 400px;
+  }
+
+  .contact-map .map {
+    width: 300px;
+    height: 250px;
+  }
+
+  .contact-detail .detail-box .detail-card {
+    width: 240px;
+    height: 120px;
+    padding: 45px 10px 10px;
+  }
+
+  .detail-box .detail-card .icon-box {
+    width: 80px;
+    height: 80px;
+    top: -40px;
+  }
+
+  .detail-box .detail-card .icon-box svg {
+    font-size: 30px;
+  }
+  .contact-form input {
+    height: 40px;
+  }
+
+  .contact-form h2 {
+    font-size: 38px;
+  }
+
+  .about-banner .team-member {
+    height: 240px;
+  }
+
+  .about-banner .team-member .member {
+    width: 240px;
+    height: 100px;
+    padding-top: 45px;
+  }
+
+  .about-banner .team-member .member img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about-banner .team-member .member .img-box {
+    top: -40px;
+  }
+
+  .about-banner .team-member .member h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .about-banner .team-member .member p {
+    font-size: 12px;
+  }
+
+  footer img {
+    width: 120px;
+  }
+
+  .fooding-box .sidebar-box .sidebar,
+  .fooding .fooding-box .sidebar-box {
+    width: 180px;
+  }
+
+  .fooding .fooding-box .menu {
+    width: calc(100% - 220px);
+  }
+
+  .sidebar-box .sidebar h4 {
+    font-size: 18px;
+  }
+
+  .sidebar-box .sidebar ul li a {
+    font-size: 16px;
+  }
+
+  .menu .menu-card {
+    height: 240px;
+  }
+
+  .menu .menu-card img {
+    height: 130px;
+  }
+
+  .menu .menu-card .text-box {
+    padding: 5px 10px;
+  }
+
+  .menu .menu-card .text-box h5 {
+    font-size: 14px;
+  }
+
+  .menu .menu-card .text-box h6 {
+    font-size: 13px;
+  }
+
+  .menu .menu-card button {
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+    bottom: 10px;
+  }
+
+  .fooding-banner {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --side-gap: 20px;
+  }
+  .main-banner img {
+    height: 300px;
+  }
+
+  .gravity-gate .heading {
+    margin-top: 50px;
+  }
+
+  .gravity-gate .gravity-card {
+    height: 400px;
+  }
+
+  .gravity-gate .gravity-card {
+    width: 320px;
+  }
+
+  .gravity-gate .gravity-card .text-box p {
+    font-size: 13px;
+  }
+
+  .timing-faq .timing-box {
+    max-width: 428px;
+    padding-left: 50px;
+    margin-top: 10px;
+  }
+
+  .timing-faq h2 {
+    margin: 0 0 0 50px;
+    text-align: left;
+  }
+
+  .review .rating-box {
+    width: 320px;
+    height: 200px;
+    margin: 50px auto 20px;
+  }
+
+  .review .m-auto {
+    width: 100px;
+  }
+
+  .review .m-auto button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .heading h6 {
+    line-height: 24px;
+  }
+
+  .review .rating-box p {
+    line-height: 14px;
+  }
+
+  .heading {
+    max-width: 85%;
+  }
+
+  .attraction-img {
+    height: 200px;
+  }
+
+  .offer-banner {
+    height: 200px;
+  }
+
+  .detail-page .img-box {
+    height: 240px;
+  }
+
+  .detail-page .img-box {
+    border-radius: 5px;
+  }
+
+  .detail-page h4 {
+    font-size: 24px;
+  }
+
+  .detail-page p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .detail-page .info-box .time svg,
+  .detail-page .info-box li svg {
+    font-size: 18px;
+  }
+
+  .detail-page .info-box .time p,
+  .detail-page .info-box .time span,
+  .detail-page .info-box li span {
+    font-size: 14px;
+  }
+
+  .contact-map .contact-box .contact-form {
+    width: 388px;
+    height: 480px;
+  }
+
+  .contact-map .map {
+    width: 390px;
+  }
+
+  .contact-map {
+    padding-top: 20px;
+  }
+
+  .contact-detail .detail-box .detail-card {
+    width: 160px;
+    height: 80px;
+    padding: 35px 0px 5px;
+    margin-top: 10px;
+
+    &:before {
+      border-radius: 5px;
+    }
+  }
+
+  .detail-box .detail-card h6 {
+    font-size: 6px;
+    margin-bottom: 5px;
+  }
+
+  .detail-box .detail-card h4 {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+
+  .detail-box .detail-card .icon-box {
+    width: 50px;
+    height: 50px;
+    top: -25px;
+  }
+
+  .detail-box .detail-card .icon-box svg {
+    font-size: 20px;
+  }
+
+  .contact-detail {
+    height: 200px;
+  }
+
+  .contact-form input {
+    height: 35px;
+  }
+
+  .contact-form textarea {
+    height: 90px;
+  }
+
+  .contact-form h2 {
+    font-size: 28px;
+  }
+
+  .contact-form label {
+    font-size: 16px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+
+  header {
+    margin-bottom: 80px;
+  }
+
+  nav .nav-toggle {
+    font-size: 30px;
+  }
+
+  nav .container-fluid {
+    min-height: 80px;
+  }
+
+  nav .logo img {
+    width: 60px;
+  }
+
+  nav .show {
+    top: 80px;
+  }
+
+  .policy h1 {
+    font-size: 24px;
+  }
+
+  .policy dt {
+    font-size: 16px;
+  }
+
+  .policy dd {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .policy {
+    padding: 25px var(--side-gap);
+  }
+
+  .about-us p {
+    font-size: 14px;
+  }
+
+  footer h4 {
+    font-size: 18px;
+  }
+
+  .about-banner .team-member {
+    height: 200px;
+    padding-top: 30px;
+  }
+
+  .about-banner .team-member .member {
+    width: 180px;
+    height: 80px;
+    padding-top: 35px;
+    border-radius: 5px;
+  }
+
+  .about-banner .team-member .member img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about-banner .team-member .member .img-box {
+    top: -30px;
+  }
+
+  .about-banner .team-member .member h5 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .about-banner .team-member .member p {
+    font-size: 10px;
+  }
+
+  footer img {
+    width: 100px;
+  }
+
+  .cart form {
+    min-height: 330px;
+    padding: 25px;
+  }
+
+  .cart h4 {
+    font-size: 24px;
+  }
+
+  .cart .input-box {
+    height: 35px;
+  }
+
+  .cart .input-box input,
+  .cart .input-box select {
+    font-size: 14px;
+
+    &::placeholder {
+      font-size: 14px;
+    }
+  }
+
+  .cart .table-box table th {
+    font-size: 14px;
+    height: 35px;
+  }
+  .cart .table-box table td {
+    font-size: 14px;
+    height: 35px;
+  }
+
+  .cart .table-box table td:nth-child(1) {
+    width: 30%;
+  }
+
+  .cart .table-box table td button {
+    width: 22px;
+    height: 22px;
+    padding: 0 2px;
+    margin: 0 7px;
+  }
+
+  .cart .table-box table td button svg {
+    font-size: 12px;
+    vertical-align: baseline;
+  }
+
+  .cart .calc-box .promo-code {
+    width: 200px;
+    height: 35px;
+  }
+
+  .cart .calc-box input {
+    width: calc(100% - 35px);
+  }
+
+  .cart .calc-box button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .cart .calc-box button svg {
+    font-size: 14px;
+  }
+
+  .cart .calc-box input {
+    font-size: 14px;
+
+    &::placeholder {
+      font-size: 14px;
+    }
+  }
+
+  .cart .calc-box .calc h5,
+  .cart .total h5 {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+  .cart .submit-btn button {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .main-banner img {
+    height: 210px;
+  }
+
+  .gravity-gate .serivice-box {
+    padding: 0 20px;
+    height: 40px;
+    top: -20px;
+    border-radius: 5px;
+  }
+
+  .gravity-gate .serivice-box a {
+    font-size: 10px;
+
+    svg {
+      font-size: 16px;
+    }
+  }
+
+  .timing-faq h2 {
+    margin: 0 0 0 20px;
+  }
+
+  .timing-faq .timing-box {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+
+  .timing-faq .faq h4,
+  .timing-faq .timing-box h4 {
+    font-size: 20px;
+  }
+
+  .timing-faq .timing-box h6,
+  .timing-faq .timing-box h6 span {
+    font-size: 16px;
+  }
+
+  .timing-faq .timing-box p {
+    font-size: 14px;
+  }
+
+  .timing-faq .faq li {
+    min-height: 35px;
+  }
+
+  .timing-faq .faq li h6 {
+    font-size: 10px;
+  }
+
+  .passes .passes-card img {
+    height: 200px;
+  }
+
+  .passes .passes-card {
+    width: 320px;
+    min-height: 410px;
+    margin: 10px auto 20px;
+  }
+
+  .passes .passes-card .text-box p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .passes .passes-card .text-box h6 {
+    margin-bottom: 5px;
+  }
+
+  .attraction-img {
+    height: 130px;
+  }
+
+  .heading h6 {
+    line-height: 13px;
+  }
+
+  .attractions .attraction-card {
+    width: 300px;
+    min-height: 320px;
+  }
+
+  .attractions .attraction-card img {
+    height: 160px;
+  }
+
+  .attractions .attraction-card .text-box p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .attractions .attraction-card .text-box {
+    padding: 5px 10px;
+  }
+
+  .offer-banner {
+    height: 145px;
+  }
+
+  .offer .offer-box {
+    width: 310px;
+    height: 110px;
+  }
+
+  .offer .offer-box .left-part {
+    width: 160px;
+  }
+
+  .offer .offer-box .right-part {
+    width: 150px;
+    padding: 10px 10px 5px;
+
+    &::before,
+    &::after {
+      width: 15px;
+      height: 15px;
+    }
+
+    &::before {
+      left: -7.5px;
+      top: -7.5px;
+    }
+
+    &::after {
+      left: -7.5px;
+      bottom: -7.5px;
+    }
+  }
+
+  .offer .offer-box .left-part h5,
+  .offer .offer-box .right-part h5 {
+    font-size: 14px;
+  }
+
+  .offer .offer-box .right-part h6 {
+    width: 118px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .offer .offer-box .right-part p {
+    font-size: 8px;
+    line-height: 10px;
+    margin-bottom: 2px;
+  }
+
+  .offer .offer-box .left-part svg {
+    font-size: 50px;
+    margin-top: 5px;
+  }
+
+  footer h4 {
+    margin-top: 20px;
+  }
+
+  footer a {
+    font-size: 16px;
+  }
+
+  .detail-page .img-box {
+    height: 150px;
+  }
+
+  .contact-detail {
+    height: 130px;
+  }
+
+  .contact-detail .detail-box .detail-card {
+    width: 130px;
+    height: 55px;
+    padding: 20px 0px 5px;
+    margin-top: 10px;
+
+    &:before {
+      border-radius: 5px;
+    }
+  }
+
+  .detail-box .detail-card h6 {
+    font-size: 6px;
+    margin-bottom: 2px;
+  }
+
+  .detail-box .detail-card h4 {
+    font-size: 8px;
+    margin-bottom: 2px;
+  }
+
+  .detail-box .detail-card .icon-box {
+    width: 32px;
+    height: 32px;
+    top: -16px;
+  }
+
+  .detail-box .detail-card .icon-box svg {
+    font-size: 14px;
+  }
+
+  .about-banner .team-member {
+    height: 140px;
+    padding-top: 15px;
+    gap: 5px;
+  }
+
+  .about-banner .team-member .member {
+    width: 110px;
+    height: 50px;
+    padding: 20px 0 0 0;
+  }
+
+  .about-banner .team-member .member img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .about-banner .team-member .member .img-box {
+    top: -16px;
+  }
+
+  .about-banner .team-member .member h5 {
+    font-size: 8px;
+    margin-bottom: 3px;
+  }
+
+  .about-banner .team-member .member p {
+    font-size: 6px;
+  }
+
+  .fooding .fooding-box .sidebar-box,
+  .fooding-box .sidebar-box .sidebar {
+    width: 0;
+    display: none;
+  }
+
+  .fooding .fooding-box .menu {
+    width: 100%;
+  }
+
+  .menu .menu-card {
+    height: 210px;
+  }
+
+  .menu .menu-card img {
+    height: 100px;
+  }
+
+  .fooding-banner {
+    height: 129px;
+  }
+
+  .cart form {
+    padding: 25px 20px;
+    border-radius: 5px;
+  }
+
+  .cart .input-box {
+    height: 25px;
+    border-radius: 2px;
+  }
+
+  .cart .input-box input,
+  .cart .input-box select {
+    font-size: 10px;
+    border-radius: 2px;
+
+    &::placeholder {
+      font-size: 10px;
+    }
+  }
+
+  .cart .table-box {
+    border-radius: 2px;
+  }
+
+  .cart .table-box table th {
+    font-size: 10px;
+    height: 25px;
+    border-radius: 2px;
+  }
+  .cart .table-box table td {
+    font-size: 10px;
+    height: 25px;
+    border-radius: 2px;
+  }
+
+  .cart .table-box table td button {
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+    padding: 0 0 2px;
+    border-radius: 2px;
+  }
+
+  .cart .table-box table td button svg {
+    font-size: 10px;
+  }
+
+  .cart .calc-box .promo-code {
+    width: 153px;
+    height: 25px;
+    border-radius: 2px;
+  }
+
+  .cart .calc-box input {
+    width: calc(100% - 23px);
+    font-size: 10px;
+    border-radius: 2px 0 0 2px;
+
+    &::placeholder {
+      font-size: 10px;
+    }
+  }
+
+  .cart .calc-box button {
+    width: 23px;
+    height: 23px;
+    border-radius: 0 2px 2px 0;
+  }
+
+  .cart .calc-box button svg {
+    font-size: 14px;
+  }
+
+  .cart .calc-box .calc h5,
+  .cart .total h5 {
+    font-size: 12px;
+    padding-top: 3px;
+  }
+
+  .cart .submit-btn button {
+    width: 100px;
+    height: 25px;
+    font-size: 11px;
+  }
+
+  .fooding #fooding {
+    display: inline;
+  }
+
+  .detail-page .img-box img,
+  .detail-page .info-box {
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravity Gate</title>
+    <link rel="icon" type="image/png" href="images/gravity-gate-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-fluid">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="images/gravity-gate-logo.png" alt="gravity-gate-logo"
+            /></a>
+          </div>
+
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+          >
+            &#9776;
+          </button>
+
+          <div class="navlist" id="navMenu">
+            <ul>
+              <li><a href="index.html" class="link-active">Home</a></li>
+              <li><a href="passes.html">Passes</a></li>
+              <li><a href="attractions.html">Park & Attractions</a></li>
+              <li><a href="offer.html">Offers</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li>
+                <a href="booking.html" class="btn-book"
+                  ><button>
+                    Book Ticket
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M25.45 63.043l-4.364 17.463 8.73 2.18L90.44 97.846l29.402 44.1 62.44 187.32-36.845 73.693h17.827c-2.086 4.238-3.264 8.99-3.264 14 0 17.567 14.433 32 32 32s32-14.433 32-32c0-5.01-1.178-9.762-3.264-14h102.528c-2.086 4.238-3.264 8.99-3.264 14 0 17.567 14.433 32 32 32s32-14.433 32-32c0-5.01-1.178-9.762-3.264-14H393v-18H174.562l23-46h192.924l70-210h-327.67L101.56 82.07 34.183 65.227l-8.733-2.184zm115.038 83.914H231v46h-75.178l-15.334-46zm108.512 0h78v46h-78v-46zm96 0h90.512l-15.334 46H345v-46zm-183.18 64H231v46h-53.846l-15.334-46zm87.18 0h78v46h-78v-46zm96 0h69.18l-15.334 46H345v-46zm-161.846 64H231v46h-32.514l-15.332-46zm65.846 0h78v46h-78v-46zm96 0h47.846l-15.332 46H345v-46zm-153 128c7.84 0 14 6.16 14 14s-6.16 14-14 14-14-6.16-14-14 6.16-14 14-14zm160 0c7.84 0 14 6.16 14 14s-6.16 14-14 14-14-6.16-14-14 6.16-14 14-14z"
+                      ></path>
+                    </svg></button
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-banner">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/carousal-one.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/carousal-two.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/carousal-three.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="gravity-gate background">
+        <div class="serivice-box">
+          <span
+            ><a href="javascript:void(0)" onclick="goToDetails(3)">
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                <path d="M16 2v4"></path>
+                <path d="M3 10h18"></path>
+                <path d="M8 2v4"></path>
+                <path d="M17 14h-6"></path>
+                <path d="M13 18H7"></path>
+                <path d="M7 14h.01"></path>
+                <path d="M17 18h.01"></path>
+              </svg>
+              Event
+            </a>
+          </span>
+          <span
+            ><a href="attractions.html">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z"
+                ></path>
+                <circle
+                  cx="256"
+                  cy="192"
+                  r="48"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                ></circle>
+              </svg>
+              Attractions
+            </a></span
+          >
+          <span
+            ><a href="booking.html">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="none"
+                  stroke-width="2"
+                  d="M7,16 L17,16 L17,8 L7,8 L7,16 Z M20,12 C20,14 21,15 23,15 L23,20 L1,20 L1,15 C3,15 4,14 4,12 C4,10 3,9 1,9 L1,4 L23,4 L23,9 C21,9 20,10 20,12 Z"
+                ></path>
+              </svg>
+              Tickets
+            </a></span
+          >
+          <span
+            ><a href="fooding.html">
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                  d="M322 416c0 35.35-20.65 64-56 64H134c-35.35 0-56-28.65-56-64m258-80c17.67 0 32 17.91 32 40h0c0 22.09-14.33 40-32 40H64c-17.67 0-32-17.91-32-40h0c0-22.09 14.33-40 32-40"
+                ></path>
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                  d="M344 336H179.31a8 8 0 0 0-5.65 2.34l-26.83 26.83a4 4 0 0 1-5.66 0l-26.83-26.83a8 8 0 0 0-5.65-2.34H56a24 24 0 0 1-24-24h0a24 24 0 0 1 24-24h288a24 24 0 0 1 24 24h0a24 24 0 0 1-24 24zM64 276v-.22c0-55 45-83.78 100-83.78h72c55 0 100 29 100 84v-.22M241 112l7.44 63.97"
+                ></path>
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                  d="M256 480h139.31a32 32 0 0 0 31.91-29.61L463 112"
+                ></path>
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32"
+                  d="m368 112 16-64 47-16"
+                ></path>
+                <path
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-miterlimit="10"
+                  stroke-width="32"
+                  d="M224 112h256"
+                ></path>
+              </svg>
+              Fooding
+            </a></span
+          >
+        </div>
+        <div class="heading">
+          <h1>Gravity Gate</h1>
+          <h6>
+            Gravity Gate is an amusement park where thrill meets imagination.
+            Experience gravity-defying rides, futuristic attractions, family fun
+            zones, and excitement for all ages in a vibrant wonderland.
+          </h6>
+        </div>
+
+        <div class="card-box">
+          <div class="gravity-card green">
+            <img
+              src="images/gravity-gate.jpg"
+              alt="gravity-gate"
+              loading="lazy"
+            />
+            <div class="text-box">
+              <h4>Gravity Gate</h4>
+              <h6>Amusement Park</h6>
+              <p>
+                Gravity Gate is a thrilling amusement park that blends
+                adventure, fun, and imagination. Discover breathtaking rides,
+                futuristic experiences, colorful parades, and immersive themed
+                zones. From high-speed roller coasters to family attractions and
+                delicious food courts, every corner offers excitement, laughter,
+                and unforgettable memories for visitors of all ages.
+              </p>
+            </div>
+            <button onclick="goToDetails(1)">View Detail</button>
+          </div>
+
+          <div class="gravity-card blue">
+            <img src="images/waterpark.jpg" alt="gravity-gate" loading="lazy" />
+            <div class="text-box">
+              <h4>Water Gravity</h4>
+              <h6>Water Park</h6>
+              <p>
+                Water Gravity is a refreshing water park filled with endless fun
+                and adventure. Dive into giant wave pools, thrilling slides,
+                lazy rivers, and splash zones. Perfect for families and friends,
+                it offers tropical vibes, live entertainment, delicious
+                refreshments, beach-style relaxation, exciting events, and
+                unforgettable moments under the bright sunny sky.
+              </p>
+            </div>
+            <button onclick="goToDetails(2)">View Detail</button>
+          </div>
+
+          <div class="gravity-card red">
+            <img
+              src="images/event-venue.jpg"
+              alt="gravity-gate"
+              loading="lazy"
+            />
+            <div class="text-box">
+              <h4>Gravity Venue</h4>
+              <h6>Party Venue</h6>
+              <p>
+                Gravity Venue is a modern party destination designed for
+                unforgettable celebrations. With elegant interiors, dynamic
+                lighting, spacious halls, and customizable themes, it’s perfect
+                for birthdays, weddings, and corporate events. Enjoy vibrant
+                music, gourmet catering, and a lively atmosphere where every
+                moment feels special, stylish, and full of joyful energy.
+              </p>
+            </div>
+            <button onclick="goToDetails(3)">View Detail</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="timing-faq" id="faq">
+        <h2>Park Timing & FAQ</h2>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="timing-box">
+              <h4>Park Timing</h4>
+              <h6><span>Gate :</span> 09:30 AM to 07:30 PM</h6>
+              <h6><span>Rides :</span> 10:00 AM to 07:30 PM</h6>
+              <h6><span>Food Court :</span> 10:30 AM to 07:30 PM</h6>
+              <h6><span>Water Park :</span> 10:00 AM to 05:30 PM</h6>
+              <h6><span>Water Park Service :</span> 10:30 AM to 05:30 PM</h6>
+              <h6><span>Gravity Venue :</span> 12:30 PM to 11:30 PM</h6>
+              <p>*Re-entry in the park is prohibited.</p>
+              <p>*Children Below 80 cm in height free entry.</p>
+              <p>*Children 80 cm or above same ticket price as adult.</p>
+              <p>*Booked ticket is non-refundable.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="faq">
+              <h4>FAQ</h4>
+              <ul>
+                <li>
+                  <h6>
+                    Is the entry ticket inclusive of all the rides inside the
+                    park?
+                  </h6>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+                    ></path>
+                  </svg>
+                  <p>Only 7 rides are included with Entry ticket.</p>
+                </li>
+                <li>
+                  <h6>
+                    Do I have to change my clothes before entering a water ride?
+                  </h6>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+                    ></path>
+                  </svg>
+                  <p>It's upto you.</p>
+                </li>
+                <li>
+                  <h6>
+                    Can I come on some other day, instead of the day I bought
+                    the ticket for?
+                  </h6>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+                    ></path>
+                  </svg>
+                  <p>You are requested to read our cancellation policy.</p>
+                </li>
+                <li>
+                  <h6>
+                    Does my entry ticket contain access to the water park as
+                    well?
+                  </h6>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+                    ></path>
+                  </svg>
+                  <p>It is not included.</p>
+                </li>
+                <li>
+                  <h6>Do I have to pay for individual rides?</h6>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+                    ></path>
+                  </svg>
+                  <p>Yes, You have to pay individual.</p>
+                </li>
+                <li>
+                  <h6>What is included in the park ticket?</h6>
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 512 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+                    ></path>
+                  </svg>
+                  <p>5 rides are included with Entry ticket.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="review background">
+        <h2>What our visitor is saying</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="rating-box">
+              <img
+                src="images/review-one.jpg"
+                alt="profile"
+                class="profile-img"
+                loading="lazy"
+              />
+              <h5>Sohail Khan</h5>
+              <div class="m-auto">
+                <img src="images/rating.jpg" alt="rating" loading="lazy" />
+              </div>
+              <p>
+                I recently visited Gravity Gate, and it was an amazing
+                experience! The thrilling rides, friendly staff, and clean
+                surroundings made it perfect. The food was delicious, and the
+                atmosphere was lively. It’s ideal for families and friends—an
+                unforgettable amusement park adventure I’d love to revisit soon!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="rating-box">
+              <img
+                src="images/review-two.jpg"
+                alt="profile"
+                class="profile-img"
+                loading="lazy"
+              />
+              <h5>Sujay Das</h5>
+              <div class="m-auto">
+                <img src="images/rating.jpg" alt="rating" loading="lazy" />
+              </div>
+              <p>
+                My visit to Gravity Gate was absolutely fantastic! The park had
+                an energetic vibe, and the rides were both fun and safe. I loved
+                the music, lighting, and cheerful staff. Great food choices too!
+                It’s the perfect spot for a fun-filled family weekend.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="rating-box">
+              <img
+                src="images/review-three.jpg"
+                alt="profile"
+                class="profile-img"
+                loading="lazy"
+              />
+              <h5>Sushmita Dey</h5>
+              <div class="m-auto">
+                <img src="images/rating.jpg" alt="rating" loading="lazy" />
+              </div>
+              <p>
+                I had a wonderful time at Gravity Gate! The roller coasters were
+                thrilling, and the entire park was beautifully maintained. The
+                staff was polite and helpful, and the food stalls had tasty
+                options. A perfect place for adventure lovers and families to
+                create lasting memories!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="m-auto">
+          <a href="review.html">
+            <button>Read More</button>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-6">
+          <img
+            src="images/gravity-gate-logo-white.png"
+            alt="gravity-gate-white-logo"
+          />
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <h4>Gravity Gate Park</h4>
+          <a href="#">Chandannagar,</a>
+          <a href="#">Hooghly,</a>
+          <a href="#">WB, 712138</a>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-12">
+          <h4>Contact</h4>
+          <a href="tel:+916252487595">Phone : +91 6252487595</a>
+          <a href="mailto:support@gravitygate.com"
+            >Email : support@gravitygate.com</a
+          >
+          <a href="#">GSTN : 58GFIUY575S58SY</a>
+        </div>
+        <div class="col-md-3 col-sm-12" id="ft-none"></div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h4>Quick Links</h4>
+          <a href="contact.html">Location</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="aboutus.html">About us</a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-6">
+          <h4>Privacy Policy</h4>
+          <a href="privacy.html">Privacy</a>
+          <a href="cancellation&refund.html">Refund</a>
+          <a href="cancellation&refund.html">Cancellation</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
