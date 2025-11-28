@@ -130,10 +130,6 @@ nav .nav-toggle {
   font-size: 40px;
 }
 
-nav .navlist {
-  transition: 500ms width ease;
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -186,7 +182,8 @@ nav ul li button {
 }
 
 nav .navlist {
-  transition: all 400ms ease;
+   transition:
+    width 400ms ease;
 }
 
 .main-banner img {
@@ -1524,7 +1521,7 @@ footer a {
 
 .fooding #fooding {
   display: none;
-  width: 150px;
+  width: 25vw;
   height: 25px;
   position: absolute;
   right: 20px;

@@ -172,3 +172,25 @@ if (dateSelect) {
     dateSelect.appendChild(option);
   }
 }
+
+const copyCode = document.querySelectorAll(".right-part h6");
+if (copyCode) {
+  copyCode.forEach((h6) => {
+    h6.style.cursor = "pointer"; // pointer cursor
+    h6.title = "Click to copy"; // tooltip
+
+    h6.addEventListener("click", () => {
+      const text = h6.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        // Flash "Copied!"
+        let oldText = h6.innerText;
+        h6.innerText = "Copied!";
+
+        setTimeout(() => {
+          h6.innerText = oldText;
+          h6.style.color = "";
+        }, 900);
+      });
+    });
+  });
+}

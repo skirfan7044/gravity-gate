@@ -533,25 +533,22 @@
   }
 
   nav .navlist {
+    width: 0;
     display: block;
     position: absolute;
     top: 100px;
     left: 0;
     z-index: 9;
-    width: 0;
     height: calc(100vh - 100px);
     overflow: hidden;
     background: var(--white);
     box-shadow: var(--shadow-two);
     opacity: 0;
-    visibility: hidden;
   }
 
   nav .navlist.show {
     width: 250px;
-    height: calc(100vh - 100px);
     opacity: 1;
-    visibility: visible;
   }
 
   nav .navlist ul {
@@ -561,7 +558,7 @@
   }
 
   nav ul li {
-    padding: 7px 0;
+    padding: 5px 0;
   }
   nav .nav-toggle {
     display: inline;
@@ -569,7 +566,14 @@
 
   nav ul li button {
     margin-left: 0;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
   }
+
+    nav ul li button svg {
+      font-size: 16px;
+    }
 
   nav .show {
     width: 250px;
@@ -903,6 +907,10 @@
 @media screen and (max-width: 768px) {
   :root {
     --side-gap: 20px;
+  }
+
+  .cart .table-box table th:nth-child(3) {
+    padding-left: 30px;
   }
   .main-banner img {
     height: 300px;
