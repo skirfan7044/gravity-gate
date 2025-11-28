@@ -568,7 +568,7 @@
     margin-left: 0;
     width: 120px;
     height: 35px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
     nav ul li button svg {
@@ -815,7 +815,8 @@
   .detail-box .detail-card .icon-box svg {
     font-size: 30px;
   }
-  .contact-form input {
+  .contact-form input,
+  .contact-form button {
     height: 40px;
   }
 
@@ -907,6 +908,10 @@
 @media screen and (max-width: 768px) {
   :root {
     --side-gap: 20px;
+  }
+
+  .gravity-gate .serivice-box svg {
+    margin-right: 3px;
   }
 
   .cart .table-box table th:nth-child(3) {
@@ -1003,7 +1008,8 @@
 
   .detail-page .info-box .time p,
   .detail-page .info-box .time span,
-  .detail-page .info-box li span {
+  .detail-page .info-box li span,
+  .detail-page .info-box li p {
     font-size: 14px;
   }
 
@@ -1055,7 +1061,8 @@
     height: 200px;
   }
 
-  .contact-form input {
+  .contact-form input,
+  .contact-form button {
     height: 35px;
   }
 
@@ -1204,7 +1211,7 @@
 
   .cart .table-box table td button svg {
     font-size: 12px;
-    vertical-align: baseline;
+    vertical-align: text-top;
   }
 
   .cart .calc-box .promo-code {
@@ -1244,12 +1251,32 @@
     height: 35px;
     font-size: 14px;
   }
+
+  .timing-faq .timing-box h6 {
+    padding-bottom: 7px;
+  }
+
+  .review .m-auto button {
+    margin-top: 25px;
+  }
+
+  .detail-page .info-box {
+    padding: 30px 30px 20px;
+  }
+
+  .policy dd {
+    margin: 5px 0 10px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .col-xs-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+
+  nav .navlist.show {
+    width: 200px;
   }
 
   .main-banner img {
@@ -1298,8 +1325,9 @@
     min-height: 35px;
   }
 
-  .timing-faq .faq li h6 {
-    font-size: 10px;
+  .timing-faq .faq li h6,
+  .timing-faq .faq li p {
+    font-size: 11px;
   }
 
   .passes .passes-card img {
@@ -1572,7 +1600,7 @@
   }
 
   .cart .calc-box button svg {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .cart .calc-box .calc h5,

@@ -1523,6 +1523,9 @@ footer a {
   display: none;
   width: 25vw;
   height: 25px;
+  background: var(--white);
+  border: solid 1px var(--grey-two);
+  color: var(--black);
   position: absolute;
   right: 20px;
   top: 40px; 
