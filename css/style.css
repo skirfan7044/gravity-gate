@@ -66,7 +66,7 @@ h2 {
   font-family: var(--font-one);
   color: var(--blue);
   text-align: center;
-  font-size: clamp(32px, 4vw, 50px);
+  font-size: clamp(32px, 4vw, 45px);
 }
 
 h6 {
@@ -236,7 +236,7 @@ nav .navlist {
 }
 
 .heading {
-  width: 810px;
+  width: clamp(390px, 70vw, 810px);
   margin: 30px auto 10px;
   text-align: center;
 }
@@ -980,6 +980,7 @@ footer a {
   width: 100%;
   height: 45px;
   display: flex;
+  overflow: auto;
   border: solid 1px var(--grey-four);
   border-radius: 5px;
 }

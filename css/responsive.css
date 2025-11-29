@@ -49,7 +49,7 @@
   }
 
   .passes .passes-card {
-    min-height: 500px;
+    min-height: 520px;
   }
 
   .passes .passes-card .text-box p {
@@ -95,6 +95,10 @@
   }
   .gravity-gate .heading {
     margin-top: 80px;
+  }
+
+  .heading  {
+    max-width: 95%;
   }
 
   .detail-page h4 {
@@ -689,10 +693,6 @@
     height: 300px;
   }
 
-  .heading {
-    max-width: 646px;
-  }
-
   .attractions .attraction-card {
     min-height: 295px;
   }
@@ -951,10 +951,6 @@
 
   .review .rating-box p {
     line-height: 14px;
-  }
-
-  .heading {
-    max-width: 85%;
   }
 
   .attraction-img {
