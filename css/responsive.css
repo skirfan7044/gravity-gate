@@ -179,7 +179,7 @@
 
   .gravity-gate .gravity-card {
     width: 300px;
-    height: 460px;
+    height: 470px;
   }
 
   .gravity-gate .gravity-card img {
@@ -192,7 +192,7 @@
 
   .gravity-gate .gravity-card .text-box p {
     font-size: 14px;
-    line-height: 14px;
+    line-height: 16px;
   }
 
   .gravity-gate .gravity-card button {
@@ -201,10 +201,6 @@
     font-size: 16px;
     left: 15px;
     bottom: 15px;
-  }
-
-  .heading h6 {
-    line-height: 26px;
   }
 
   .passes .passes-card {
@@ -253,7 +249,7 @@
 
   .gravity-gate .gravity-card {
     width: 270px;
-    height: 440px;
+    height: 450px;
   }
 
   .gravity-gate .gravity-card button {
@@ -266,14 +262,6 @@
   }
   .gravity-gate .gravity-card .text-box {
     padding: 5px 12px;
-  }
-
-  .gravity-gate .gravity-card .text-box p {
-    line-height: 14px;
-  }
-
-  .heading h6 {
-    line-height: 24px;
   }
 
   .timing-faq {
@@ -571,9 +559,9 @@
     font-size: 14px;
   }
 
-    nav ul li button svg {
-      font-size: 16px;
-    }
+  nav ul li button svg {
+    font-size: 16px;
+  }
 
   nav .show {
     width: 250px;
@@ -608,7 +596,7 @@
 
   .gravity-gate .gravity-card {
     width: 250px;
-    height: 430px;
+    height: 440px;
   }
 
   .gravity-gate .gravity-card .text-box h4 {
@@ -926,11 +914,8 @@
   }
 
   .gravity-gate .gravity-card {
-    height: 400px;
-  }
-
-  .gravity-gate .gravity-card {
     width: 320px;
+    height: 410px;
   }
 
   .gravity-gate .gravity-card .text-box p {
@@ -962,10 +947,6 @@
     width: 100px;
     height: 30px;
     font-size: 14px;
-  }
-
-  .heading h6 {
-    line-height: 24px;
   }
 
   .review .rating-box p {
@@ -1275,6 +1256,10 @@
     width: 50%;
   }
 
+  .gravity-gate .gravity-card {
+    width: 340px;
+  }
+
   nav .navlist.show {
     width: 200px;
   }
@@ -1351,10 +1336,6 @@
 
   .attraction-img {
     height: 130px;
-  }
-
-  .heading h6 {
-    line-height: 13px;
   }
 
   .attractions .attraction-card {
